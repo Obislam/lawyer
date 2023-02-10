@@ -1,0 +1,184 @@
+* { margin: 0px; padding: 0px; }
+.nav-link { color: rgb(32, 79, 135); font-weight: 600; text-transform: uppercase; font-family: montserrat; }
+.nav-link:hover { color: rgb(20, 41, 122); }
+.banner { background-image: url("../images/banner.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 91vh; position: relative; }
+.banner h1 { text-align: center; color: rgb(255, 255, 255); font-size: 81px; text-transform: uppercase; font-family: montserrat; }
+.icon { position: absolute; left: 50%; transform: translate(-50%); color: rgb(255, 255, 255); top: 80%; font-size: 20px; animation: 1s linear 0s infinite alternate none running updown; }
+@keyframes updown { 
+  0% { top: 80%; }
+  100% { top: 86%; }
+}
+.hg { min-height: 91vh; align-items: center; }
+.who_we_r { padding: 70px 0px; }
+.who_we_r span { display: block; height: 2px; width: 50px; background: rgb(231, 97, 40); }
+.who_we_r h1 { color: rgb(51, 65, 124); text-transform: uppercase; font-weight: 700; font-size: 35px; margin-top: 10px; }
+.who_we_r p { color: rgb(186, 181, 178); font-size: 16px; margin-top: 15px; }
+.what_we_do { background: url("../images/bg.png") right bottom / 67% no-repeat rgb(251, 251, 251); padding: 70px 0px; }
+.what_we_do span { display: block; background: rgb(231, 97, 40); height: 3px; width: 49px; margin: auto; }
+.what_we_do h1 { color: rgb(58, 19, 114); text-transform: uppercase; text-align: center; }
+.item { position: relative; }
+.item img { width: 100%; }
+.item h1 { position: absolute; top: 53%; left: 50%; transform: translate(-50%, -50%); color: rgb(255, 255, 255); font-size: 30px; opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item i { position: absolute; left: 48%; top: 80%; transform: translate(-50%); color: rgb(255, 255, 255); opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item::before { content: ""; position: absolute; bottom: 0px; left: 0px; height: 0%; width: 100%; background: linear-gradient(rgba(30, 87, 153, 0) 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.51) 51%, rgb(54, 34, 111) 100%); transition: all 0.4s ease-in-out 0s; }
+.item:hover h1 { opacity: 1; top: 50%; }
+.item:hover i { opacity: 1; left: 50%; }
+.item:hover::before { height: 100%; }
+.atorneys_section { background-image: url("../images/lawyer_pro.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 1194px; padding: 70px 0px; }
+.atorny_text { margin-top: 165px; }
+.atorny_text span { display: block; background: rgb(231, 97, 40); height: 3px; width: 50px; }
+.atorny_text h1 { color: rgb(255, 255, 255); font-size: 36px; font-weight: 600; margin: 20px 0px; }
+.atorny_text p { color: rgb(131, 123, 174); font-size: 14px; }
+.atorny_text h3 { color: rgb(231, 97, 40); text-transform: uppercase; font-size: 18px; margin-top: 38px; }
+.item2 { position: relative; }
+.item2 h1 { position: absolute; top: 73%; left: 50%; transform: translate(-50%, -50%); color: rgb(255, 255, 255); font-size: 30px; opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item2 img { width: 100%; }
+.item2::before { content: ""; position: absolute; bottom: 0px; left: 0px; height: 0%; width: 100%; background: linear-gradient(rgba(30, 87, 153, 0) 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.51) 51%, rgb(54, 34, 111) 100%); transition: all 0.4s ease-in-out 0s; }
+.item2:hover h1 { opacity: 1; top: 76%; }
+.hgk { margin-top: 20px; }
+.item2:hover::before { height: 100%; }
+.language_section { }
+* { margin: 0px; padding: 0px; }
+.nav-link { color: rgb(32, 79, 135); font-weight: 600; }
+.nav-link:hover { color: rgb(20, 41, 122); }
+.banner { background-image: url("../images/banner.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 91vh; position: relative; }
+.banner h1 { text-align: center; color: rgb(255, 255, 255); font-size: 81px; text-transform: uppercase; }
+.icon { position: absolute; left: 50%; transform: translate(-50%); color: rgb(255, 255, 255); top: 88%; font-size: 20px; }
+.hg { min-height: 91vh; align-items: center; }
+.who_we_r { padding: 70px 0px; }
+.who_we_r span { display: block; height: 2px; width: 50px; background: rgb(231, 97, 40); }
+.who_we_r h1 { color: rgb(51, 65, 124); text-transform: uppercase; font-weight: 700; font-size: 35px; margin-top: 10px; }
+.who_we_r p { color: rgb(186, 181, 178); font-size: 16px; margin-top: 15px; }
+.what_we_do { background: url("../images/bg.png") right bottom / 67% no-repeat rgb(251, 251, 251); padding: 70px 0px; }
+.what_we_do span { display: block; background: rgb(231, 97, 40); height: 3px; width: 49px; margin: auto; }
+.what_we_do h1 { color: rgb(58, 19, 114); text-transform: uppercase; text-align: center; }
+.item { position: relative; }
+.item img { width: 100%; }
+.item h1 { position: absolute; top: 53%; left: 50%; transform: translate(-50%, -50%); color: rgb(255, 255, 255); font-size: 30px; opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item i { position: absolute; left: 48%; top: 80%; transform: translate(-50%); color: rgb(255, 255, 255); opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item::before { content: ""; position: absolute; bottom: 0px; left: 0px; height: 0%; width: 100%; background: linear-gradient(rgba(30, 87, 153, 0) 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.51) 51%, rgb(54, 34, 111) 100%); transition: all 0.4s ease-in-out 0s; }
+.item:hover h1 { opacity: 1; top: 50%; }
+.item:hover i { opacity: 1; left: 50%; }
+.item:hover::before { height: 100%; }
+.atorneys_section { background-image: url("../images/lawyer_pro.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 1194px; padding: 70px 0px; }
+.atorny_text { margin-top: 165px; }
+.atorny_text span { display: block; background: rgb(231, 97, 40); height: 3px; width: 50px; }
+.atorny_text h1 { color: rgb(255, 255, 255); font-size: 36px; font-weight: 600; margin: 20px 0px; }
+.atorny_text p { color: rgb(131, 123, 174); font-size: 14px; }
+.atorny_text h3 { color: rgb(231, 97, 40); text-transform: uppercase; font-size: 18px; margin-top: 38px; }
+.item2 { position: relative; }
+.item2 h1 { position: absolute; top: 73%; left: 50%; transform: translate(-50%, -50%); color: rgb(255, 255, 255); font-size: 30px; opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item2 img { width: 100%; }
+.item2::before { content: ""; position: absolute; bottom: 0px; left: 0px; height: 0%; width: 100%; background: linear-gradient(rgba(30, 87, 153, 0) 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.51) 51%, rgb(54, 34, 111) 100%); transition: all 0.4s ease-in-out 0s; }
+.item2:hover h1 { opacity: 1; top: 76%; }
+.hgk { margin-top: 20px; }
+.item2:hover::before { height: 100%; }
+.language_section { margin-top: 30px; }
+.language_section h1 { text-align: center; color: rgb(54, 34, 111); text-transform: uppercase; font-size: 36px; margin-bottom: 79px; }
+.language_section p { color: rgb(205, 199, 197); font-size: 14px; margin-top: 10px; }
+.language_section span { display: block; background: rgb(231, 97, 40); height: 3px; width: 50px; margin: 58px auto 20px; }
+.language_section h2 { color: rgb(54, 34, 111); font-size: 24px; text-transform: uppercase; font-weight: 700; }
+.language_section h3 { margin: 27px 0px; color: rgb(231, 97, 40); text-transform: uppercase; font-size: 14px; }
+.language_section h3:hover{ margin: 27px 0px; color: rgb(146, 57, 18); text-transform: uppercase; font-size: 14px;}
+
+.con { background: rgb(54, 34, 111); }
+.con span { display: block; background: rgb(231, 97, 40); height: 3px; width: 50px; margin: 58px auto 17px; }
+.con h1 { text-align: center; text-transform: uppercase; font-size: 36px; margin-bottom: 57px; color: rgb(255, 255, 255); }
+.con form { }
+.con form input { background: transparent; border-top: none; border-right: none; border-left: none; border-image: initial; border-bottom: 1px solid rgb(71, 89, 167); }
+.con form textarea { background: transparent; border-top: none; border-right: none; border-left: none; border-image: initial; border-bottom: 1px solid rgb(71, 89, 167); }
+.con form input[type="submit"] { background: rgb(231, 97, 40); color: rgb(255, 255, 255); padding: 5px 58px; display: block; margin: 40px auto auto; }
+.con form input::placeholder, .con form textarea::placeholder { color: rgb(255, 255, 255); }
+.con form input:focus, .con form textarea:focus { background: transparent; box-shadow: none; border: rgb(231, 97, 40); color: rgb(255, 255, 255); }
+* { margin: 0px; padding: 0px; }
+.nav-link { color: rgb(32, 79, 135); font-weight: 600; }
+.nav-link:hover { color: rgb(20, 41, 122); }
+.banner { background-image: url("../images/banner.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 91vh; position: relative; }
+.banner h1 { text-align: center; color: rgb(255, 255, 255); font-size: 81px; text-transform: uppercase; }
+.icon { position: absolute; left: 50%; transform: translate(-50%); color: rgb(255, 255, 255); top: 88%; font-size: 20px; }
+.hg { min-height: 91vh; align-items: center; }
+.who_we_r { padding: 70px 0px; }
+.who_we_r span { display: block; height: 2px; width: 50px; background: rgb(231, 97, 40); }
+.who_we_r h1 { color: rgb(51, 65, 124); text-transform: uppercase; font-weight: 700; font-size: 35px; margin-top: 10px; }
+.who_we_r p { color: rgb(186, 181, 178); font-size: 16px; margin-top: 15px; }
+.what_we_do { background: url("../images/bg.png") right bottom / 67% no-repeat rgb(251, 251, 251); padding: 70px 0px; }
+.what_we_do span { display: block; background: rgb(231, 97, 40); height: 3px; width: 49px; margin: auto; }
+.what_we_do h1 { color: rgb(58, 19, 114); text-transform: uppercase; text-align: center; }
+.item { position: relative; }
+.item img { width: 100%; }
+.item h1 { position: absolute; top: 53%; left: 50%; transform: translate(-50%, -50%); color: rgb(255, 255, 255); font-size: 30px; opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item i { position: absolute; left: 48%; top: 80%; transform: translate(-50%); color: rgb(255, 255, 255); opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item::before { content: ""; position: absolute; bottom: 0px; left: 0px; height: 0%; width: 100%; background: linear-gradient(rgba(30, 87, 153, 0) 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.51) 51%, rgb(54, 34, 111) 100%); transition: all 0.4s ease-in-out 0s; }
+.item:hover h1 { opacity: 1; top: 50%; }
+.item:hover i { opacity: 1; left: 50%; }
+.item:hover::before { height: 100%; }
+.atorneys_section { background-image: url("../images/lawyer_pro.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 1194px; padding: 70px 0px; }
+.atorny_text { margin-top: 165px; }
+.atorny_text span { display: block; background: rgb(231, 97, 40); height: 3px; width: 50px; }
+.atorny_text h1 { color: rgb(255, 255, 255); font-size: 36px; font-weight: 600; margin: 20px 0px; }
+.atorny_text p { color: rgb(131, 123, 174); font-size: 14px; }
+.atorny_text h3 { color: rgb(231, 97, 40); text-transform: uppercase; font-size: 18px; margin-top: 38px; }
+.item2 { position: relative; }
+.item2 h1 { position: absolute; top: 73%; left: 50%; transform: translate(-50%, -50%); color: rgb(255, 255, 255); font-size: 30px; opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item2 img { width: 100%; }
+.item2::before { content: ""; position: absolute; bottom: 0px; left: 0px; height: 0%; width: 100%; background: linear-gradient(rgba(30, 87, 153, 0) 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.51) 51%, rgb(54, 34, 111) 100%); transition: all 0.4s ease-in-out 0s; }
+.item2:hover h1 { opacity: 1; top: 76%; }
+.hgk { margin-top: 20px; }
+.item2:hover::before { height: 100%; }
+.language_section { }
+* { margin: 0px; padding: 0px; }
+.nav-link {color: rgb(32, 79, 135);font-weight: 600;}
+.nav-link:hover { color: rgb(20, 41, 122); }
+.banner { background-image: url("../images/banner.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 91vh; position: relative; }
+.banner h1 {text-align: center;color: rgb(255, 255, 255);font-size: 71px;text-transform: uppercase;font-weight: 700;}
+.icon { position: absolute; left: 50%; transform: translate(-50%); color: rgb(255, 255, 255); top: 88%; font-size: 20px; }
+.hg { min-height: 91vh; align-items: center; }
+.who_we_r { padding: 70px 0px; }
+.who_we_r span { display: block; height: 2px; width: 50px; background: rgb(231, 97, 40); }
+.who_we_r h1 {color: rgb(51, 65, 124);text-transform: uppercase;font-weight: 700;font-size: 35px;margin-top: 10px;font-family: 'montserrat';}
+.who_we_r p {color: rgb(186, 181, 178);font-size: 13px;margin-top: 15px;font-family: 'open_sans';}
+.what_we_do { background: url("../images/bg.png") right bottom / 67% no-repeat rgb(251, 251, 251); padding: 70px 0px; }
+.what_we_do span { display: block; background: rgb(231, 97, 40); height: 3px; width: 49px; margin: auto; }
+.what_we_do h1 {color: rgb(58, 19, 114);text-transform: uppercase;text-align: center;font-family: 'montserrat';font-weight: 700;}
+.item { position: relative; }
+.item img { width: 100%; }
+.item h1 {position: absolute;top: 53%;left: 50%;transform: translate(-50%, -50%);color: rgb(255, 255, 255);font-size: 30px;opacity: 0;transition: all 0.5s ease-in-out 0s;/* font-family: montserrat; */font-family: 'montserrat';}
+.item i { position: absolute; left: 48%; top: 80%; transform: translate(-50%); color: rgb(255, 255, 255); opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.item::before { content: ""; position: absolute; bottom: 0px; left: 0px; height: 0%; width: 100%; background: linear-gradient(rgba(30, 87, 153, 0) 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.51) 51%, rgb(54, 34, 111) 100%); transition: all 0.4s ease-in-out 0s; }
+.item:hover h1 {opacity: 1;top: 50%;font-family: 'montserrat';font-weight: 700;}
+.item:hover i { opacity: 1; left: 50%; }
+.item:hover::before { height: 100%; }
+.atorneys_section { background-image: url("../images/lawyer_pro.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 1194px; padding: 70px 0px; }
+.atorny_text { margin-top: 165px; }
+.atorny_text span { display: block; background: rgb(231, 97, 40); height: 3px; width: 50px; }
+.atorny_text h1 {color: rgb(255, 255, 255);font-size: 36px;font-weight: 700;margin: 20px 0px;font-family: 'montserrat';}
+.atorny_text p {color: rgb(131, 123, 174);font-size: 14px;font-family: 'open_sans';}
+.atorny_text h3 { color: rgb(231, 97, 40); text-transform: uppercase; font-size: 18px; margin-top: 38px; }
+.atorny_text h3:hover{color: rgb(124, 49, 17); text-transform: uppercase; font-size: 18px; margin-top: 38px;}
+.item2 { position: relative; }
+.item2 h2 {position: absolute;left: 40%;top: 76%;transform: translate(-50%, -50%);color: rgb(255, 255, 255);font-size: 30px;opacity: 0;transition: all 0.5s ease-in-out 0s;font-family: 'montserrat';font-weight: 700;}
+.item2 img { width: 100%; }
+.item2::before { content: ""; position: absolute; bottom: 0px; left: 0px; height: 0%; width: 100%; background: linear-gradient(rgba(30, 87, 153, 0) 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.51) 51%, rgb(54, 34, 111) 100%); transition: all 0.4s ease-in-out 0s; }
+.item2:hover h2 { opacity: 1; top: 76%; }
+.hgk { margin-top: 20px; }
+.item2:hover::before { height: 100%; }
+.language_section { margin-top: 30px; }
+.language_section h1 {text-align: center;color: rgb(54, 34, 111);text-transform: uppercase;font-size: 36px;margin-bottom: 79px;font-family: 'montserrat';font-weight: 700;}
+.language_section p {color: rgb(205, 199, 197);font-size: 10px;margin-top: 10px;font-family: 'open_sans';}
+.language_section span { display: block; background: rgb(231, 97, 40); height: 3px; width: 50px; margin: 58px auto 20px; }
+.language_section h2 {color: rgb(54, 34, 111);font-size: 24px;text-transform: uppercase;font-weight: 700;font-family: 'montserrat';}
+.language_section h3 {margin: 27px 0px;color: rgb(231, 97, 40);text-transform: uppercase;font-size: 14px;font-family: 'open_sans';font-weight: 700;}
+.con { background: rgb(54, 34, 111); }
+.con span { display: block; background: rgb(231, 97, 40); height: 3px; width: 50px; margin: 58px auto 17px; }
+.con h1 {text-align: center;text-transform: uppercase;font-size: 36px;margin-bottom: 57px;color: rgb(255, 255, 255);font-family: 'montserrat';font-weight: 700;}
+.con form { }
+.con form input {color: rgb(255, 255, 255);background: transparent;border-top: none;border-right: none;border-left: none;border-image: initial;border-bottom: 1px solid rgb(71, 89, 167);font-family: 'montserrat';}
+.con form textarea {color: rgb(255, 255, 255);background: transparent;border-top: none;border-right: none;border-left: none;border-image: initial;border-bottom: 1px solid rgb(71, 89, 167);font-family: 'montserrat';}
+.con form input[type="submit"] {background: rgb(231, 97, 40);color: rgb(255, 255, 255);padding: 5px 58px;display: block;margin: 40px auto 62px;font-family: 'montserrat';}
+.con form input[type="submit"]:hover{background: rgb(172, 59, 11);color: rgb(255, 255, 255);padding: 5px 58px;display: block;margin: 40px auto 62px;font-family: 'montserrat';}}
+.con form input::placeholder, .con form textarea::placeholder { color: rgb(255, 255, 255); }
+.con form input:focus, .con form textarea:focus { background: transparent; box-shadow: none; border: rgb(231, 97, 40); color: rgb(255, 255, 255); }
+footer { padding: 40px; background: rgb(22, 16, 43); }
+footer a {color: rgb(87, 80, 131);margin-left: 15px;font-family: 'open_sans';font-size: 15px;}
+footer ul { list-style: none; display: flex; text-align: center; justify-content: end; }
+footer ul li { color: rgb(255, 255, 255); padding: 0px 8px; }
